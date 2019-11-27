@@ -1,14 +1,108 @@
-.berita {
-background-color: green
-
-}
-
-#wrapper {
-background-color: black
+*{
+  margin: auto;
+  padding: auto;
+  font-family:
 }
 
 body{
-margin: auto;
-padding: auto
+  background-color: #DDDDDD;
+}
 
+#wrapper{
+  width: 700px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#header{
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  padding: 5px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+#header img{
+  width: 130px;
+  height: 35px;
+}
+
+#menu-utama{
+  margin-top: 3px;
+  list-style: none;
+}
+
+#menu-utama li {
+  float: left;
+  padding: 8px 20px;
+  border-right: 1px;
+}
+
+#menu-utama li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header form {
+  float: right;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+#header form input {
+  border: none;
+  height: 20px;
+}
+
+#daftar-berita {
+  width: 470px;
+  float: left;
+}
+
+.berita {
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.berita:first-child {
+  text-align: right;
+}
+
+.berita img {
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+
+.berita b {
+  background: #dddddd;
+}
+
+
+.berita:last-child a{
+  float: right;
+}
+
+#sidebar {
+  float: right;
+  width: 200px;
+  padding-bottom: 100px;
+}
+
+#sidebar li {
+  margin-left: -22px;
+}
+
+#sidebar li a{
+  text-decoration: none;
+  color: grey;
+}
+
+#footer {
+  background-color: #a9a9a9;
+  text-align: center;
+  width: 700px;
 }
