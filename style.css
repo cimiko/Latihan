@@ -1,20 +1,20 @@
-*{
+* {
   margin: auto;
   padding: auto;
   font-family:
 }
 
-body{
+body {
   background-color: #DDDDDD;
 }
 
-#wrapper{
+#wrapper {
   width: 700px;
   margin: auto;
   overflow: hidden;
 }
 
-#header{
+#header {
   background-color: black;
   height: 70px;
   width: 100%;
@@ -23,12 +23,12 @@ body{
   overflow: hidden;
 }
 
-#header img{
+#header img {
   width: 130px;
   height: 35px;
 }
 
-#menu-utama{
+#menu-utama {
   margin-top: 3px;
   list-style: none;
 }
@@ -39,7 +39,7 @@ body{
   border-right: 1px;
 }
 
-#menu-utama li a{
+#menu-utama li a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -81,8 +81,7 @@ body{
   background: #dddddd;
 }
 
-
-.berita:last-child a{
+.berita:last-child a {
   float: right;
 }
 
@@ -96,7 +95,7 @@ body{
   margin-left: -22px;
 }
 
-#sidebar li a{
+#sidebar li a {
   text-decoration: none;
   color: grey;
 }
@@ -105,4 +104,5 @@ body{
   background-color: #a9a9a9;
   text-align: center;
   width: 700px;
+  overflow: hidden;
 }
