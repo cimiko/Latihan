@@ -81,6 +81,10 @@ body {
   background: #dddddd;
 }
 
+.berita a{
+  display: block;
+}
+
 .berita:last-child a {
   float: right;
 }
